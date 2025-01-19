@@ -21,11 +21,6 @@ public class TestGreeter {
   }
 
   @Test
-  public void intentionally_Failed() {
-    assertTrue(true);
-  }
-  
-  @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "World";
 
